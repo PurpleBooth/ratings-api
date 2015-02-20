@@ -10,12 +10,18 @@ See it in action: [ratings-api.herokuapp.com](http://ratings-api.herokuapp.com)
 
 First ensure vagrant and virtualbox are installed.
 
+You'll need the hosts updater plugin.
+
+```
+vagrant plugin install vagrant-hostsupdater
+```
+
+### Start the VM
 ```
 vagrant up
 vagrant ssh
 ```
-
-to start the VM
+### Install the dependencies.
 
 ```
 cd /vagrant
@@ -23,3 +29,5 @@ composer install
 ```
 
 to install the dependencies.
+
+Your service will be running at [ratings-api.herokuapp.com](http://ratings-api.herokuapp.com)
