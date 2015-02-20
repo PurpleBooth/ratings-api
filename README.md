@@ -4,7 +4,7 @@ This is the demo site for the Silex and MVVM talk. It is the component that cont
 
 It's responsibilities are, return a rating for an ISBN
 
-See it in action: [ratings-api.herokuapp.com](ratings-api.herokuapp.com)
+See it in action: [ratings-api.herokuapp.com](http://ratings-api.herokuapp.com)
 
 ## Getting started
 
