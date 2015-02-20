@@ -23,11 +23,11 @@ vagrant ssh
 ```
 ### Install the dependencies.
 
+Inside the VM
 ```
 cd /vagrant
 composer install
 ```
 
-to install the dependencies.
 
 Your service will be running at [ratings-api.herokuapp.com](http://ratings-api.herokuapp.com)
